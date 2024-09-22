@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= spell.name %></title>
+</head>
+<body>
+  <h1><%= spell.name %></h1>
+  <p><strong>Level:</strong> <%= spell.level %></p>
+  <p><strong>School:</strong> <%= spell.school.name %></p>
+  <p><strong>Description:</strong> <%= spell.desc.join(' ') %></p>
+  <a href="/">Back to Spells List</a>
+</body>
+</html>

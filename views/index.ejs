@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spells List</title>
+</head>
+<body>
+  <h1>Spells List</h1>
+  <ul>
+    <% spells.forEach(spell => { %>
+      <li><a href="/spell/<%= spell.index %>"><%= spell.name %></a></li>
+    <% }) %>
+  </ul>
+</body>
+</html>
